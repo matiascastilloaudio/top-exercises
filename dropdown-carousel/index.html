@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown & Carousel Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button id="ddBtn">Dropdown</button>
+    <div class="dropdown">
+        <a class="menuItem" href="https://google.com" target="_blank">Google</a>
+        <a class="menuItem" href="https://instagram.com" target="_blank">Instagram</a>
+        <a class="menuItem" href="https://github.com" target="_blank">Github</a>
+    </div>
+
+    <div class="carousel-container">
+        <div class="carousel-slide">
+            <img src="https://via.placeholder.com/800x400?text=Slide+1" alt="Slide 1">
+            <img src="https://via.placeholder.com/800x400?text=Slide+2" alt="Slide 2">
+            <img src="https://via.placeholder.com/800x400?text=Slide+3" alt="Slide 3">
+            <img src="https://via.placeholder.com/800x400?text=Slide+4" alt="Slide 4">
+        </div>
+
+        <a class="prev" onclick="prevSlide()">L</a>
+        <a class="next" onclick="nextSlide()">R</a>
+
+        <div class="nav-dots">
+            <span class="dot" onclick="currentSlide(0)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

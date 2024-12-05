@@ -1,0 +1,9 @@
+/* styles.css */
+body {
+    /* background-color: rebeccapurple; */
+    background: url('./icon.jpg');
+}
+
+.hello {
+    color: red;
+}

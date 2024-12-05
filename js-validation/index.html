@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form novalidate>
+        <div>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+            <span class="emailError error"></span>
+        </div>
+        <div>
+            <input type="tel" name="zipCode" id="zipCode" placeholder="Zip Code" required>
+            <span class="zipCodeError error"></span>
+        </div>
+        <div>
+            <input type="password" name="password" id="password" placeholder="Password" required>
+            <span class="passwordError error"></span>
+        </div>
+        <div>
+            <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password" required>
+            <span class="confirmPasswordError error"></span>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+form>div {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+input,
+button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: 1px solid black;
+}
+
+input:focus-visible {
+    outline: 1px solid orange;
+}
+
+input:focus-visible:invalid {
+    outline: 1px solid red;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.error {
+    background-color: rgba(255, 0, 0, 0.1);
+    color: #000;
+    font-size: 70%;
+    text-align: center;
+}

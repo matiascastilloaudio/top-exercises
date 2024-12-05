@@ -1,0 +1,55 @@
+/* General setup */
+@font-face {
+    font-family: 'edge_displayregular';
+    src: url('fonts/edgedisplay-regular-webfont.woff2') format('woff2'),
+        url('fonts/edgedisplay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'balooregular';
+    src: url('fonts/baloo-regular-webfont.woff2') format('woff2'),
+        url('fonts/baloo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.jacquarda-bastarda-9-regular {
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+html {
+    font-size: 10px;
+    margin: 0;
+}
+
+body {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Typography */
+
+h1 {
+    font-family: 'balooregular';
+    font-size: 3.2rem;
+}
+
+h2 {
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-size: 2.4rem;
+}
+
+p {
+    font-family: 'edge_displayregular';
+    font-size: 1.4rem;
+    line-height: 1.6;
+    word-spacing: 0.6rem;
+}
